@@ -33,6 +33,8 @@ printf("%3.0f %6.1f\n", fahr, celsius);
 %3.0f tells function to print fahr as a floating point 3 characters wide with no decimal point/fraction digits
 %6.1f tells function to print celcius as a floating point 6 characters  wide with one digit after decimal point
 
+printf("%.0f\n", nc);
+%.0f suppresses the printing of decimal point
 ===================================================================================
 Arithmetic
 ==================================================================================
@@ -41,5 +43,8 @@ However, division between floats 5.0/9.0 is not truncated
 If two operands are ints, integer operation is performed.
 If one of the operands is float, then the non-float will be converted to floating point.
 Therefore, 5.0/9, would not be truncated
+==================================================================================
+getchar() - reads input from text stream
+putchat() - prints char
 
 
