@@ -23,7 +23,7 @@ main()
             state = IN;
             putchar(c);
         }
-       else
-          putchar(c);
+        else
+            putchar(c);
     }
 } 

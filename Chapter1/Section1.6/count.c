@@ -1,4 +1,4 @@
-//count occurrences of earch digit, white space characters and all others
+//count occurrences of each digit, white space characters and all others
 #include <stdio.h>
 main()
 {
